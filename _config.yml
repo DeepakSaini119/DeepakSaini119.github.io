@@ -1,0 +1,38 @@
+# Site settings
+title: "Deepak Saini"
+email: sainideepak119@gmail.com
+description: "Deepak Saini's personal site."
+baseurl: ""
+url: "http://carte-noire.jacobtomlinson.co.uk/"
+title_description: "Hi there! I am Deepak Saini. I am a Research Engineer at Microsoft Research where I work on large scale recommendation problems. My work has an intersection between machine learning and efficient system design. I work on developing and deploying Extreme Classification (XC) algorithms with guidance from <a href='http://manikvarma.org/'>Manik Varma</a>. Algorithms developed by me are deployed on Bing and MSN where they are helping billions of users by showing more relevant and presonalized recommendations"
+title_image: "https://i.postimg.cc/904rSbRr/Personal-Website-Photo.jpg"
+# google_analytics: "UA-20365477-4"
+# disqus_account: disqus_PkuBRHbRWy
+# github_repository: https://github.com/jacobtomlinson/carte-noire
+# addthis_id: ra-513c6fa83da6ec67
+post_limit: 5
+
+# Social usernames/URLs
+# twitter_username: _jacobtomlinson
+github_username:  DeepakSaini119
+# instagram_username: 
+# reddit_username: 
+linkedin_link: https://www.linkedin.com/in/deepak-saini-502732108/
+# google_plus_link: http://carte-noire.jacobtomlinson.co.uk/
+stackoverflow_link: https://stackoverflow.com/users/3924566/deepak-saini
+# xing_link:
+# facebook_link:
+
+# Footer
+# footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
+footer_right: "Adapted from <a href=\"https://github.com/jacobtomlinson/carte-noire\">carte-noire on Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+permalink: pretty
+exclude: [vendor]

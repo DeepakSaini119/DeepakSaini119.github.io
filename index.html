@@ -1,1 +1,113 @@
-Hello World!
+---
+layout: default
+make-smaller-titles: true
+---
+
+
+<div class="container-fluid index">
+    <div class="row">
+
+        <div class="col-md-12 main content-panel">
+
+            <div class="gravatar">
+                <img src="{{ site.title_image }}" class="img-circle about-image" height="150" width="150" alt="{{ site.title }}" />
+            </div>
+
+            <h1 class="header author-header" itemprop="headline">{{ site.title }}</h1>
+
+            <div class="author-text">
+                {{ site.title_description }}
+            </div>
+
+        {% include social_links.html %}
+        </div>
+        <div class="col-md-12 main content-panel">
+
+            
+            <div class="articles">
+            <h2>News</h2>
+            </div>
+            
+            <div>
+                <ul>
+                    <li>
+                        Gave talk to the Financial Modelling Group at BlackRock on Extreme Classification and its potential applicaitons in financial recommendations
+                        <small style="font-size: 14px;margin-top: -10px;padding-top: 0px;color: #969696;"}>March, 2021</small>
+                    </li>
+                    <br style="display: block;content: '';margin-top: 8px;">
+                    
+                    <li>
+                        <b>GalaXC: Graph Neural Networks with Labelwise Attention for Extreme Classification</b> accepted at International World Wide Web Conference, Slovenia, 2021 
+                        <small style="font-size: 14px;margin-top: -10px;padding-top: 0px;color: #969696;"}>January, 2021</small>
+                    </li>
+                    <br style="display: block;content: '';margin-top: 8px;">
+
+                    <li>
+                        Gave talk on DeepXML: A Framework for Deep Extreme Classification Applied to Recommending 100 Million Items at Technical Advisory Board meeting (Microsoft Research India’s annual meeting) at MSRI
+                        <small style="font-size: 14px;margin-top: -10px;padding-top: 0px;color: #969696;"}>January, 2021</small>
+                    </li>
+                    <br style="display: block;content: '';margin-top: 8px;">
+                    
+                    <li>
+                        <b>DeepXML: A deep extreme multi-Label learning framework applied to short text documents</b> accepted at Web Search and Data Mining (WSDM), Israel, 2021 
+                        <small style="font-size: 14px;margin-top: -10px;padding-top: 0px;color: #969696;"}>November, 2020</small>
+                    </li>
+                    <br style="display: block;content: '';margin-top: 8px;">
+
+                    <li>
+                        <b>DECAF: Deep extreme classification with label features</b> accepted at Web Search and Data Mining (WSDM), Israel, 2021
+                        <small style="font-size: 14px;margin-top: -10px;padding-top: 0px;color: #969696;"}>November, 2020</small>
+                    </li>
+                    <br style="display: block;content: '';margin-top: 8px;">
+
+                    <li>
+                        Now a Research Software Development Engineer II at MSR! 
+                        <small style="font-size: 14px;margin-top: -10px;padding-top: 0px;color: #969696;"}>November, 2019</small>
+                    </li>
+                    <br style="display: block;content: '';margin-top: 8px;">
+
+                    <li>
+                        Joined as Research Software Development Engineer at MSR India! 
+                        <small style="font-size: 14px;margin-top: -10px;padding-top: 0px;color: #969696;"}>Decemner, 2018</small>
+                    </li>
+                    <br style="display: block;content: '';margin-top: 8px;">
+
+                    <li>
+                        Joined as AI Engineer at Zomato! 
+                        <small style="font-size: 14px;margin-top: -10px;padding-top: 0px;color: #969696;"}>June, 2018</small>
+                    </li>
+                    <br style="display: block;content: '';margin-top: 8px;">
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-12 main content-panel">
+
+            <div class="articles">
+
+              <h2>Publications/Posts/Articles</h2>
+
+              <ul>
+                  {% for post in site.posts limit: site.post_limit %}
+
+                      <li>
+                          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                          <small class="hidden-xs">{{ post.date | date: "%B %-d, %Y" }}</small>
+                      </li>
+
+                  {% endfor %}
+                  <li>
+                      <small><i><a href="{{ site.baseurl }}/posts/">more...</a></i></small>
+                  </li>
+              </ul>
+
+            </div>
+
+        </div>
+
+
+    </div>
+</div>
