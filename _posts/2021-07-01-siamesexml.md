@@ -12,7 +12,7 @@ tags:
 ---
 
 
-![GalaXCLogo](https://i.postimg.cc/hP3DGkLv/thumb.jpg)
+![SiameseXMLLogo](https://i.postimg.cc/XJNk1W47/image.png)
 
 Joint work with [Kunal Dahiya](https://kunaldahiya.github.io){:target="_blank"}, Ananye Agarwal, Gururaj K, Jian Jiao, Amit Singh, [Summet Agarwal](https://web.iitd.ac.in/~sumeet/){:target="_blank"}, [Purushottam Kar](https://www.cse.iitk.ac.in/users/purushot/){:target="_blank"}, [Manik Varma](http://manikvarma.org/){:target="_blank"}
 <br>
